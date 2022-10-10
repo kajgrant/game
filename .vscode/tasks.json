@@ -1,0 +1,32 @@
+{
+    "tasks": [
+      {
+        "type": "shell",
+        "label": "g++.exe build main",
+        "command": "C:\\MinGW\\bin\\g++.exe",
+        "args": [
+          "-g",
+          "main.cpp",
+          "-o",
+          "main.exe"
+        ],
+        "options": {
+          "cwd": "C:\\MinGW\\bin"
+        }
+      },
+      {
+        "type": "shell",
+        "label": "g++ build & run main",
+        "command": "C:\\MinGW\\bin\\g++.exe",
+        "args": [
+          "main.cpp",
+          "-o",
+          "main.exe"
+        ],
+        "options": {
+          "cwd": "C:\\MinGW\\bin"
+        }
+      }
+    ],
+    "version":"2.0.0"
+  }
