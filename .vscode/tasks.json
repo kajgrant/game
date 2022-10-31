@@ -2,29 +2,30 @@
     "tasks": [
       {
         "type": "shell",
-        "label": "g++.exe build main",
-        "command": "C:\\MinGW\\bin\\g++.exe",
+        "label": "build & debug main",
+        "command": "g++",
         "args": [
-          "-g",
+          "-std=c++11",
           "main.cpp",
           "-o",
           "main.exe"
         ],
         "options": {
-          "cwd": "C:\\MinGW\\bin"
+          "cwd": "${workspaceFolder}"
         }
       },
       {
         "type": "shell",
-        "label": "g++ build & run main",
-        "command": "C:\\MinGW\\bin\\g++.exe",
+        "label": "build & run main",
+        "command": "g++",
         "args": [
+          "-std=c++11",
           "main.cpp",
           "-o",
           "main.exe"
         ],
         "options": {
-          "cwd": "C:\\MinGW\\bin"
+          "cwd": "${workspaceFolder}"
         }
       }
     ],
